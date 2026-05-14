@@ -7,10 +7,22 @@ import { MutualWave } from "@/components/pulse/MutualWave";
 import { PingingMaya } from "@/components/pulse/PingingMaya";
 import { DayRecap } from "@/components/pulse/DayRecap";
 import { Profile } from "@/components/pulse/Profile";
+import { QuestCheckIn, DidntHappen } from "@/components/pulse/QuestCheckIn";
+import { LinkedInCapture } from "@/components/pulse/LinkedInCapture";
+import { QuestComplete } from "@/components/pulse/QuestComplete";
 import { supabase } from "@/integrations/supabase/client";
 import { rowToViewer, type Quest, type QuestRow, type Viewer } from "@/lib/pulse-data";
 
-export type Screen = "compose" | "radar" | "ping" | "wave" | "recap";
+export type Screen =
+  | "compose"
+  | "radar"
+  | "ping"
+  | "wave"
+  | "checkin"
+  | "didnt"
+  | "linkedin"
+  | "complete"
+  | "recap";
 
 export function PulseApp() {
   const [screen, setScreen] = useState<Screen>("compose");
@@ -30,7 +42,6 @@ export function PulseApp() {
 
   const handleComposeSubmit = useCallback(
     async (payload: ComposerSubmit) => {
-      // Update Adi's viewer row with the new quest + reset the timer.
       const expiresAt = new Date(
         Date.now() + payload.windowMin * 60_000,
       ).toISOString();
@@ -54,7 +65,6 @@ export function PulseApp() {
           is_active: true,
           created_at: new Date().toISOString(),
           quest_tags: tags,
-          // New flexible-context columns
           context_type: payload.contextType,
           just_attended: payload.justAttended,
           current_situation: payload.currentSituation,
@@ -70,9 +80,13 @@ export function PulseApp() {
     [],
   );
 
+  const questText =
+    viewer?.questText ??
+    "Grabbing coffee at the espresso bar by Hall C in 10 min. Want to keep chewing on what Pip said about AI in the design process. Room for two.";
+  const mayaInitial = waved?.initial ?? "M";
+
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
-      {/* No mode="wait" — screens overlap so there's never a black frame between transitions. */}
       <AnimatePresence initial={false}>
         {screen === "compose" && (
           <motion.div
@@ -132,7 +146,75 @@ export function PulseApp() {
             transition={{ duration: 0.5 }}
             className="absolute inset-0"
           >
-            <MutualWave match={waved} onDone={() => setScreen("radar")} />
+            <MutualWave match={waved} onDone={() => setScreen("checkin")} />
+          </motion.div>
+        )}
+
+        {screen === "checkin" && (
+          <motion.div
+            key="checkin"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4 }}
+            className="absolute inset-0"
+          >
+            <QuestCheckIn
+              questText={questText}
+              onMet={() => setScreen("linkedin")}
+              onDidntHappen={() => setScreen("didnt")}
+            />
+          </motion.div>
+        )}
+
+        {screen === "didnt" && (
+          <motion.div
+            key="didnt"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4 }}
+            className="absolute inset-0"
+          >
+            <DidntHappen onRestart={() => setScreen("compose")} />
+          </motion.div>
+        )}
+
+        {screen === "linkedin" && (
+          <motion.div
+            key="linkedin"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4 }}
+            className="absolute inset-0"
+          >
+            <LinkedInCapture
+              mayaInitial={mayaInitial}
+              onSave={() => setScreen("complete")}
+              onSkip={() => setScreen("complete")}
+            />
+          </motion.div>
+        )}
+
+        {screen === "complete" && (
+          <motion.div
+            key="complete"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+            className="absolute inset-0"
+          >
+            <QuestComplete
+              questText={questText}
+              mayaInitial={mayaInitial}
+              onSeeQuests={() => {
+                setProfileOpen(true);
+                setScreen("radar");
+              }}
+              onFindNew={() => setScreen("compose")}
+            />
           </motion.div>
         )}
 
@@ -164,8 +246,11 @@ export function PulseApp() {
         viewer={viewer}
         open={profileOpen}
         onClose={() => setProfileOpen(false)}
+        onNewQuest={() => {
+          setProfileOpen(false);
+          setScreen("compose");
+        }}
       />
-
     </div>
   );
 }
