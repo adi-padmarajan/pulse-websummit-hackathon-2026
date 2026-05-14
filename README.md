@@ -10,6 +10,18 @@
 
 ---
 
+## Video Demo
+
+<div align="center">
+
+<video src="VideoDemo.mp4" controls width="720" muted>
+  Your browser does not support the video tag. <a href="VideoDemo.mp4">Download the video</a>.
+</video>
+
+</div>
+
+---
+
 ## The Pitch
 
 It is day two of Web Summit.
