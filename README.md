@@ -130,7 +130,7 @@ What to watch for:
 
 ## Team Members:
 
-Aditya Padmarajan
+Aditya Padmarajan <br>
 Lucas Wang
 
 Built at Web Summit Vancouver, May 14, 2026, in a three-hour hackathon by [team names].
