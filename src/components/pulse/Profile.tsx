@@ -224,12 +224,12 @@ export function Profile({ viewer, open, onClose, onNewQuest }: Props) {
                         "0 0 60px -10px var(--coral), inset 0 1px 0 0 oklch(1 0 0 / 25%)",
                     }}
                   >
-                    {viewer.initial || "A"}
+                    {viewer?.initial || "A"}
                   </motion.div>
                 </div>
 
                 <h1 className="mt-6 text-[36px] font-semibold tracking-tightest text-ink">
-                  {viewer.name || "Adi"}
+                  {viewer?.name || "Adi"}
                 </h1>
                 <p className="mt-1 text-[16px] text-[color:var(--ink-dim)]">
                   Founder · Building Pulse — AI tooling for live events
