@@ -612,12 +612,8 @@ export function Radar({
             get smooth backdrop blur + soft text rendering. */}
         <AnimatePresence>
           {tooltipVisible && (
-            <motion.div
-              key="maya-tip"
-              initial={{ opacity: 0, y: 4, scale: 0.96 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -2, scale: 0.98 }}
-              transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+            <div
+              key="maya-tip-anchor"
               className="pointer-events-none absolute z-10"
               style={{
                 left: `${(mayaPos.x / SIZE) * 100}%`,
@@ -625,30 +621,39 @@ export function Radar({
                 transform: "translate(-50%, calc(-100% - 14px))",
               }}
             >
-              <div
-                className="glass-strong relative rounded-xl px-3 py-2 text-[12px] text-ink"
-                style={{
-                  borderLeft: "2px solid var(--coral)",
-                  whiteSpace: "nowrap",
-                  boxShadow:
-                    "0 12px 30px -10px oklch(0 0 0 / 60%), 0 0 24px -8px var(--coral)",
-                }}
+              <motion.div
+                initial={{ opacity: 0, y: 4, scale: 0.96 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -2, scale: 0.98 }}
+                transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+                style={{ transformOrigin: "50% 100%" }}
               >
-                Maya just left the same room as you.
-                <span
-                  className="absolute left-1/2 -translate-x-1/2"
+                <div
+                  className="glass-strong relative rounded-xl px-3 py-2 text-[12px] text-ink"
                   style={{
-                    bottom: -5,
-                    width: 10,
-                    height: 10,
-                    background: "oklch(0.16 0.012 280 / 92%)",
-                    borderRight: "1px solid oklch(1 0 0 / 8%)",
-                    borderBottom: "1px solid oklch(1 0 0 / 8%)",
-                    transform: "translate(-50%, 0) rotate(45deg)",
+                    borderLeft: "2px solid var(--coral)",
+                    whiteSpace: "nowrap",
+                    boxShadow:
+                      "0 12px 30px -10px oklch(0 0 0 / 60%), 0 0 24px -8px var(--coral)",
                   }}
-                />
-              </div>
-            </motion.div>
+                >
+                  Maya just left the same room as you.
+                  <span
+                    className="absolute"
+                    style={{
+                      bottom: -5,
+                      left: "50%",
+                      width: 10,
+                      height: 10,
+                      background: "oklch(0.16 0.012 280 / 92%)",
+                      borderRight: "1px solid oklch(1 0 0 / 8%)",
+                      borderBottom: "1px solid oklch(1 0 0 / 8%)",
+                      transform: "translate(-50%, 0) rotate(45deg)",
+                    }}
+                  />
+                </div>
+              </motion.div>
+            </div>
           )}
         </AnimatePresence>
       </div>
