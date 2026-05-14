@@ -18,7 +18,7 @@
 
 <br>
 
-[🎬 **Watch the Demo**](VideoDemo.mp4) • [🚀 **Live Demo**](#) • [📖 **Jump to How It Works**](#-how-pulse-works)
+[🎬 **Watch on YouTube**](https://youtu.be/K-wmFjelY1g) • [🚀 **Live Demo**](#) • [📖 **Jump to How It Works**](#-how-pulse-works)
 
 </div>
 
@@ -26,7 +26,13 @@
 
 ## 🎬 Video Demo
 
-> 📺 [**Watch the 1–2 minute walkthrough →**](VideoDemo.mp4)
+<div align="center">
+
+[![Watch the Pulse Demo on YouTube](https://img.youtube.com/vi/K-wmFjelY1g/maxresdefault.jpg)](https://youtu.be/K-wmFjelY1g)
+
+📺 **[Watch on YouTube →](https://youtu.be/K-wmFjelY1g)**  •  💾 **[Download MP4](VideoDemo.mp4)**
+
+</div>
 
 **What to watch for:** dropping a Quest after a session → live Radar matches → suggested openers → mutual Wave → conversation grows into a Gathering → saved recap + LinkedIn handoff → loop back with a new Quest.
 
