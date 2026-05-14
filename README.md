@@ -42,7 +42,7 @@
 
 > *It is day two of Web Summit.*
 
-You just walked out of a session that completely changed how you think. Your next talk starts in 60 minutes. Around you are **2000+ founders, investors, engineers, operators, students, and creators.**
+You just walked out of a session that completely changed how you think. Your next talk starts in 60 minutes. Around you are **20000+ founders, investors, engineers, operators, students, and creators.**
 
 So you walk into the lobby, look around, and do what almost everyone else is doing.
 
