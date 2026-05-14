@@ -150,7 +150,7 @@ export function Profile({ viewer, open, onClose, onNewQuest }: Props) {
 
   return (
     <AnimatePresence>
-      {open && viewer && (
+      {open && (
         <>
           <motion.div
             initial={{ opacity: 0 }}
