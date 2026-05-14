@@ -1,32 +1,48 @@
 <div align="center">
 
-# Pulse
+# 📡 Pulse
 
-### Web Summit creates the room. Pulse helps you find who to talk to right now.
+### *Web Summit creates the room. Pulse helps you find who to talk to right now.*
 
-*An interactive quest radar for turning live-event moments into real connections.*
+**An interactive quest radar for turning live-event moments into real connections.**
+
+<br>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TanStack](https://img.shields.io/badge/TanStack_Start-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+<br>
+
+[🎬 **Watch the Demo**](VideoDemo.mp4) • [🚀 **Live Demo**](#) • [📖 **Jump to How It Works**](#-how-pulse-works)
 
 </div>
 
 ---
 
-## Video Demo
+## 🎬 Video Demo
 
-[Watch the demo →](VideoDemo.mp4)
+> 📺 [**Watch the 1–2 minute walkthrough →**](VideoDemo.mp4)
+
+**What to watch for:** dropping a Quest after a session → live Radar matches → suggested openers → mutual Wave → conversation grows into a Gathering → saved recap + LinkedIn handoff → loop back with a new Quest.
 
 ---
 
-## The Pitch
+## 💭 The Pitch
 
-It is day two of Web Summit.
+> *It is day two of Web Summit.*
 
-You just walked out of a session that completely changed how you think. Your next talk starts in 60 minutes. Around you are 2000+ founders, investors, engineers, operators, students, and creators.
+You just walked out of a session that completely changed how you think. Your next talk starts in 60 minutes. Around you are **2000+ founders, investors, engineers, operators, students, and creators.**
 
 So you walk into the lobby, look around, and do what almost everyone else is doing.
 
-You scroll your phone.
+**You scroll your phone.** 📱
 
-> **That coffee break was one of the most expensive hours of your trip. And you spent it alone.**
+> ⏳ **That coffee break was one of the most expensive hours of your trip. And you spent it alone.**
 
 The right people are already here. They may have just left the same session. They may be thinking about the same problem. They may be nearby right now, hoping to meet someone exactly like you.
 
@@ -34,92 +50,97 @@ But you still do not know who to talk to.
 
 Most event networking tools are built like static directories. They ask you to search profiles, send cold messages, and maybe schedule something later.
 
-But live events are not static. They are made of moments.
+But live events are not static. **They are made of moments.**
 
 The person you should meet might only be relevant for the next 30 minutes, before you both disappear into different sessions, lunch plans, meetings, or afterparties.
 
-> **The real problem is not discovery. The real problem is timing.**
+> 🎯 **The real problem is not discovery. The real problem is timing.**
 
 That is why we built Pulse.
 
 <br>
 
-> ### Pulse does not ask, “Who should I connect with someday?”
-> ### Pulse asks, “Who should I talk to right now?”
+<div align="center">
+
+> ### 💡 Pulse does not ask, *“Who should I connect with someday?”*
+> ### 📡 Pulse asks, *“Who should I talk to right now?”*
+
+</div>
 
 ---
 
-## What Pulse Does
+## ⚡ What Pulse Does
 
-Pulse is a real-time networking layer for Web Summit.
+**Pulse is a real-time networking layer for Web Summit.**
 
 It helps attendees turn the empty time between sessions into meaningful conversations by showing who nearby is relevant to their current context, interest, and available time.
 
 Instead of browsing an attendee list, users create a short-lived **Quest**.
 
-A Quest says:
+> 🎯 **A Quest says:**
+>
+> | | |
+> |---|---|
+> | 💬 | What you want to talk about |
+> | 🧠 | Where your head is right now |
+> | ⏱️ | How much time you have |
+> | 👥 | One-on-one, or open to a small gathering |
 
-- What you want to talk about
-- Where your head is right now
-- How much time you have
-- Whether you are open to a one-on-one conversation or a small gathering
-
-Pulse then shows nearby people whose context overlaps with yours.
-
-You can wave, meet, save the conversation, follow up on LinkedIn, and return to the loop with a new Quest.
-
----
-
-## Hackathon Demo Focus
-
-This is a micro-hackathon, so Pulse focuses on one core feature:
-
-> **A live Quest Radar that helps a Web Summit attendee find who to talk to right now.**
-
-The demo flow is:
-
-**Create a Quest → See contextual matches on the Radar → Wave → Meet or join a Gathering → Save the Conversation → Follow up on LinkedIn → See All My Quests → New Quest**
-
-The goal is not to build a full event platform. The current Web Summit App is already a platform with excellent tools (Boardy AI, In-Built Connection Requests, WhatsApp Chats etc). We aim to enhance the existing Web Summit App features, and improve the attendees' experience as a whole by ensure they have meaningful connection by the end of the summit.
-
-The goal is to demonstrate one complete networking loop: from live intent, to real-time matching, to a meaningful conversation, to a saved recap that helps the attendee remember who they met and what happened.
+Pulse then shows nearby people whose context overlaps with yours. You can wave, meet, save the conversation, follow up on LinkedIn, and return to the loop with a new Quest.
 
 ---
 
-## The Problem
+## 🏆 Hackathon Demo Focus
 
-Web Summit creates enormous opportunity by bringing thousands of people into the same place.
+This is a micro-hackathon, so Pulse focuses on **one core feature**:
 
-But for attendees, that opportunity is hard to use.
+> 🎯 **A live Quest Radar that helps a Web Summit attendee find who to talk to right now.**
+
+**Demo flow:**
+
+```
+📝 Create a Quest  →  📡 Radar matches  →  👋 Wave  →  ☕ Meet / Gather
+       ↑                                                       ↓
+  🔁 New Quest  ←  📋 See All My Quests  ←  🔗 LinkedIn  ←  ✅ Save
+```
+
+We are **not** trying to replace the Web Summit Mobile App — it already has excellent tools (Boardy AI, In-Built Connection Requests, WhatsApp Chats, etc.). Pulse **enhances** the existing experience so attendees leave the summit with meaningful connections — demonstrating one complete networking loop from live intent to real-time matching to a saved, memorable conversation.
+
+---
+
+## 🚨 The Problem
+
+Web Summit creates enormous opportunity by bringing thousands of people into the same place. But for attendees, that opportunity is hard to use.
 
 You might know what session you just attended. You might know what you want to talk about. You might know that you have 45 minutes before your next event.
 
-But you do not know:
+**But you do not know:**
 
-- Who nearby is thinking about the same thing
-- Who is also available right now
-- Who would actually be open to talking
-- Which conversations are worth saving afterward
+| | |
+|---|---|
+| 🤔 | Who nearby is thinking about the same thing |
+| 🕒 | Who is also available right now |
+| 💬 | Who would actually be open to talking |
+| 📌 | Which conversations are worth saving afterward |
 
-So the most valuable moments at live events often disappear.
-
-Not because people do not want to connect.
-
-Because the room has no interface.
+So the most valuable moments at live events often disappear — not because people do not want to connect, but because **the room has no interface.**
 
 ---
 
-## The Solution
+## 💡 The Solution
 
-Pulse gives the room an interface.
+> **Pulse gives the room an interface.**
 
-Attendees broadcast short-lived intent through Quests. Pulse then visualizes nearby matches through a live Radar, explains why each match is relevant, and helps people form small, useful conversations in the moment.
+Attendees broadcast short-lived intent through **Quests**. Pulse then visualizes nearby matches on a **live Radar**, explains *why* each match is relevant, and helps people form small, useful conversations in the moment.
 
-After the conversation, Pulse asks whether the meeting actually happened and whether it is worth saving. If it was valuable, Pulse records it as a saved conversation, shows a LinkedIn follow-up path, and lets the attendee review their day through **See All My Quests**.
+After the conversation, Pulse asks whether the meeting actually happened and whether it is worth saving. If it was, Pulse records it, surfaces a **LinkedIn follow-up**, and lets the attendee review their day through **See All My Quests**.
 
-Pulse is not trying to replace Web Summit Mobile App.
+<div align="center">
 
-It makes the Web Summit room work better.
+**Pulse is not trying to replace the Web Summit Mobile App.**
+**It makes the Web Summit room work better.** 🏟️✨
+
+</div>
 
 ---
 
