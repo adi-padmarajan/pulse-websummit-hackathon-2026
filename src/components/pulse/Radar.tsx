@@ -622,7 +622,7 @@ export function Radar({
               style={{
                 left: `${(mayaPos.x / SIZE) * 100}%`,
                 top: `${(mayaPos.y / SIZE) * 100}%`,
-                transform: "translate(-50%, calc(-100% - 16px))",
+                transform: "translate(-50%, calc(-100% - 14px))",
               }}
             >
               <div
