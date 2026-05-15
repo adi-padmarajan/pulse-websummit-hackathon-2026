@@ -29,7 +29,7 @@
 
 <br>
 
-[🏆 **The Win**](#-the-win) • [🎬 **Watch on YouTube**](https://youtu.be/K-wmFjelY1g) • [🚀 **Live Demo**](#) • [📖 **Jump to How It Works**](#-how-pulse-works)
+[ • [🎬 **Watch Demo**](https://youtu.be/K-wmFjelY1g) • [📖 **Jump to How It Works**](#-how-pulse-works)
 
 </div>
 
@@ -274,7 +274,6 @@ bun run lint           # eslint
 | 🧑‍💻 **Aditya Padmarajan** | CS @ University of Victoria |
 | 🧑‍💻 **Lucas Wang** | Software Engineer |
 
-Built — and *won* — at the **Web Summit 2026 Hackathon**. 🏆
 
 ---
 
@@ -291,14 +290,6 @@ Built — and *won* — at the **Web Summit 2026 Hackathon**. 🏆
 
 <div align="center">
 
-```
-       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
-    ───────────────────────────────────────────────
-            🏆   W I N N I N G   T E A M   🏆
-           Web Summit 2026 Hackathon
-    ───────────────────────────────────────────────
-       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
-```
 
 ### Pulse does not ask, *“Who should I connect with someday?”*
 ### Pulse asks, *“Who should I talk to right now?”*
@@ -307,6 +298,6 @@ Built — and *won* — at the **Web Summit 2026 Hackathon**. 🏆
 
 **Web Summit creates the room. Pulse makes the room work.**
 
-🥇 *And the room voted back.* 🥇
+
 
 </div>
