@@ -24,8 +24,7 @@
 
 > ### 🌟 *“The room had no interface. So we built one — and it won.”* 🌟
 >
-> **Out of every team that walked into the Web Summit 2026 Hackathon, Pulse walked out with the trophy.**
-> *One Quest. One Radar. One unforgettable loop.*
+*
 
 <br>
 
@@ -44,20 +43,6 @@
 </div>
 
 ---
-
-## 🏆 The Win
-
-<div align="center">
-
-### *Final pitch. Lights down. The room holds its breath.*
-
-The Radar pulsed. The Quest dropped. The room leaned in.
-
-When the judges called the winner — **they called Pulse.** 🥇
-
-</div>
-
-<br>
 
 > 📡 **Winner — Web Summit 2026 Hackathon**
 >
