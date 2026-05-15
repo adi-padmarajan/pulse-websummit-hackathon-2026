@@ -26,7 +26,7 @@
 
 <br>
 
-[ • [🎬 **Watch Demo**](https://youtu.be/K-wmFjelY1g) • [📖 **Jump to How It Works**](#-how-pulse-works)
+ [🎬 **Watch Demo**](https://youtu.be/K-wmFjelY1g) • [📖 **Jump to How It Works**](#-how-pulse-works)
 
 </div>
 
