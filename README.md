@@ -8,6 +8,27 @@
 
 <br>
 
+```
+       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
+    ───────────────────────────────────────────────
+        🏆   W I N N I N G   P R O J E C T   🏆
+           Web Summit 2026 Hackathon
+    ───────────────────────────────────────────────
+       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
+```
+
+![Winner](https://img.shields.io/badge/🏆_1st_Place-Web_Summit_2026_Hackathon-FFD700?style=for-the-badge&labelColor=000000)
+![Status](https://img.shields.io/badge/Status-Champion-D97757?style=for-the-badge&labelColor=000000)
+
+<br>
+
+> ### 🌟 *“The room had no interface. So we built one — and it won.”* 🌟
+>
+> **Out of every team that walked into the Web Summit 2026 Hackathon, Pulse walked out with the trophy.**
+> *One Quest. One Radar. One unforgettable loop.*
+
+<br>
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![TanStack](https://img.shields.io/badge/TanStack_Start-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
@@ -18,7 +39,46 @@
 
 <br>
 
-[🎬 **Watch on YouTube**](https://youtu.be/K-wmFjelY1g) • [🚀 **Live Demo**](#) • [📖 **Jump to How It Works**](#-how-pulse-works)
+[🏆 **The Win**](#-the-win) • [🎬 **Watch on YouTube**](https://youtu.be/K-wmFjelY1g) • [🚀 **Live Demo**](#) • [📖 **Jump to How It Works**](#-how-pulse-works)
+
+</div>
+
+---
+
+## 🏆 The Win
+
+<div align="center">
+
+### *Final pitch. Lights down. The room holds its breath.*
+
+The Radar pulsed. The Quest dropped. The room leaned in.
+
+When the judges called the winner — **they called Pulse.** 🥇
+
+</div>
+
+<br>
+
+> 📡 **Winner — Web Summit 2026 Hackathon**
+>
+> We came in with a single belief: *the real problem at live events isn’t discovery, it’s timing.*
+> We left with a trophy, a story, and a product that felt like *the missing layer of every conference.*
+
+**What the judges saw:**
+
+| | |
+|---|---|
+| 🎯 | A single, end-to-end loop that actually closed — Quest → Radar → Wave → Meet → Save → LinkedIn → New Quest |
+| 📡 | A live Radar that *felt* alive — animated pulses, real-time matches, zero awkward silence |
+| 🧠 | Claude-powered openers that sounded like a thoughtful friend, not a chatbot |
+| 🛡️ | A trust model that respected the room — expiring Quests, mutual-Wave identity, fuzzy proximity |
+| ⚡ | Two builders. One weekend. One shippable product. |
+
+<div align="center">
+
+> *“Web Summit creates the room. Pulse makes the room work.”*
+>
+> **— and apparently, that wins hackathons.** 🏆
 
 </div>
 
@@ -98,7 +158,7 @@ Pulse then shows nearby people whose context overlaps with yours. You can wave, 
 
 ## 🏆 Hackathon Demo Focus
 
-This is a micro-hackathon, so Pulse focuses on **one core feature**:
+This is a hackathon, so Pulse focuses on **one core feature**:
 
 > 🎯 **A live Quest Radar that helps a Web Summit attendee find who to talk to right now.**
 
@@ -247,7 +307,7 @@ bun run lint           # eslint
 | 🧑‍💻 **Aditya Padmarajan** | CS @ University of Victoria |
 | 🧑‍💻 **Lucas Wang** | Software Engineer |
 
-Built at the **Web Summit 2026 Micro-Hackathon**.
+Built — and *won* — at the **Web Summit 2026 Hackathon**. 🏆
 
 ---
 
@@ -264,11 +324,22 @@ Built at the **Web Summit 2026 Micro-Hackathon**.
 
 <div align="center">
 
-### Pulse does not ask, “Who should I connect with someday?”
-### Pulse asks, “Who should I talk to right now?”
+```
+       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
+    ───────────────────────────────────────────────
+            🏆   W I N N I N G   T E A M   🏆
+           Web Summit 2026 Hackathon
+    ───────────────────────────────────────────────
+       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
+```
+
+### Pulse does not ask, *“Who should I connect with someday?”*
+### Pulse asks, *“Who should I talk to right now?”*
 
 *Then helps you keep the conversations worth remembering.*
 
 **Web Summit creates the room. Pulse makes the room work.**
+
+🥇 *And the room voted back.* 🥇
 
 </div>
