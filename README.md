@@ -18,7 +18,7 @@
 ```
 
 ![Winner](https://img.shields.io/badge/🏆_1st_Place-Web_Summit_2026_Hackathon-FFD700?style=for-the-badge&labelColor=000000)
-![Status](https://img.shields.io/badge/Status-Champion-D97757?style=for-the-badge&labelColor=000000)
+
 
 <br>
 
