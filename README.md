@@ -16,7 +16,6 @@
 
 > ### 🌟 *“The room had no interface. So we built one — and it won.”* 🌟
 >
-*
 
 <br>
 
@@ -49,15 +48,6 @@
 | 📡 | A live Radar that *felt* alive — animated pulses, real-time matches, zero awkward silence |
 | 🧠 | Claude-powered openers that sounded like a thoughtful friend, not a chatbot |
 | 🛡️ | A trust model that respected the room — expiring Quests, mutual-Wave identity, fuzzy proximity |
-| ⚡ | Two builders. One weekend. One shippable product. |
-
-<div align="center">
-
-> *“Web Summit creates the room. Pulse makes the room work.”*
->
-> **— and apparently, that wins hackathons.** 🏆
-
-</div>
 
 ---
 
