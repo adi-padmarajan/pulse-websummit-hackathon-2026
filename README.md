@@ -8,14 +8,6 @@
 
 <br>
 
-```
-       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
-    ───────────────────────────────────────────────
-        🏆   W I N N I N G   P R O J E C T   🏆
-           Web Summit 2026 Hackathon
-    ───────────────────────────────────────────────
-       ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦
-```
 
 ![Winner](https://img.shields.io/badge/🏆_1st_Place-Web_Summit_2026_Hackathon-FFD700?style=for-the-badge&labelColor=000000)
 
