@@ -14,9 +14,6 @@
 
 <br>
 
-> ### 🌟 *“The room had no interface. So we built one — and it won.”* 🌟
->
-
 <br>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
